@@ -347,7 +347,7 @@ public class UIcontrol : MonoBehaviour
 
         Lcrandomimg.sprite = Allrandomlcimgs[Random.Range(0, Allrandomlcimgs.Length)];
 #if ADSETUP_ENABLED
-        if (AdManager.instance)
+       /* if (AdManager.instance)
         {
             AdManager.instance.ShowRatePopWithCallback(Database.Levelsnumber, () =>
             {
@@ -359,7 +359,7 @@ public class UIcontrol : MonoBehaviour
                     AdManager.instance.RunActions(AdManager.PageType.LCPage, Database.Levelsnumber);
                 }
             });
-        }
+        }*/
 #endif
         Lcset.SetActive(true);
 

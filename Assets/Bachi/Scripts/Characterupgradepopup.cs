@@ -79,15 +79,13 @@ public class Characterupgradepopup : MonoBehaviour
     public void Watchvideobuttonclicked()
     {
         Isvideowatched = false;
-#if Adsetup_On
+#if ADSETUP_ENABLED
         if (AdManager.instance)
             AdManager.instance.ShowRewardVideoWithCallback((result) =>
             {
                 if (result)
                 {
-
                     Isvideowatched = true;
-
                 }
 
             });

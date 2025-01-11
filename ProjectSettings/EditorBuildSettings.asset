@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AdManager/AdManager.unity
+    guid: ee4c005502ca4c24f979359b573c958e
+  - enabled: 1
     path: Assets/Bachi/Theme1.unity
     guid: 299e9f40cdd301742a7a1a82e214d7b8
   - enabled: 1

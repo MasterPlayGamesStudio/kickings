@@ -61,7 +61,7 @@ public class Levelfailscript : MonoBehaviour
         #if ADSETUP_ENABLED
         if (AdManager.instance)
         {
-            AdManager.instance.RunActions(AdManager.PageType.LF, Database.Levelsnumber);
+            AdManager.instance.RunActions(AdManager.PageType.LevelFail, Database.Levelsnumber);
         }
 #endif
     }

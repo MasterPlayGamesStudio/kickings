@@ -154,7 +154,7 @@ public class Settingspage : MonoBehaviour
 #if ADSETUP_ENABLED
         if (AdManager.instance)
         {
-            AdManager.instance.Privacypolicybuttonfunction();
+            AdManager.instance.PrivacyPolicy();
         }
 #endif
     }

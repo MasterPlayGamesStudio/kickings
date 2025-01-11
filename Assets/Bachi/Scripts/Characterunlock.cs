@@ -165,14 +165,13 @@ public class Characterunlock : MonoBehaviour
             else
             {
                 // Admanager video callback method
-#if Adsetup_On
+#if ADSETUP_ENABLED
 
                 if (AdManager.instance)
                     AdManager.instance.ShowRewardVideoWithCallback((result) =>
                     {
                         if (result)
                         {
-
                             Iswatchvideoseen = true;
                         }
 
@@ -180,8 +179,6 @@ public class Characterunlock : MonoBehaviour
 #endif
 
 #if UNITY_EDITOR
-
-
                           Database.Addwatchvideovalue(Characterindexvalue);
                         
                          if (Database.Getcharactervideostatus(Characterindexvalue) <= 0)

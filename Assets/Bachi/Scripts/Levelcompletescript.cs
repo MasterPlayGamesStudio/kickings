@@ -75,10 +75,23 @@ public class Levelcompletescript : MonoBehaviour
             _Checkcharacterunlockpopup.gameObject.SetActive(true);
             return;
         }
-        UIcontrol.Obj.Nextbuttonclicked(false);
+
+
+        if (AdManager.instance != null)
+        {
+            AdManager.instance.RunActions(AdManager.PageType.LevelComplete, Database.Levelsnumber, () =>
+            {
+                UIcontrol.Obj.Nextbuttonclicked(false);
+            });
+        }
+        else
+        {
+            UIcontrol.Obj.Nextbuttonclicked(false);
+        }
+
 
         /*
-        #if Adsetup_On
+        #if ADSETUP_ENABLED
                 if (AdManager.instance)
                 {
                     AdManager.instance.CheckUpgradeUnlockPopup(Database.Levelsnumber, () =>
