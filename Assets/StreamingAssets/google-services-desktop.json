@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092482099333",
+    "firebase_url": "https://kick-kings.firebaseio.com",
+    "project_id": "kick-kings",
+    "storage_bucket": "kick-kings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092482099333:android:34f1362ea5d85a9951a1ec",
+        "android_client_info": {
+          "package_name": "com.timuzgames.kickkings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092482099333-kae3sn5ap598uivk72avdcufemive73j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqOPfSbdvAu71BnI5gN672MW_7SieD2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092482099333-kae3sn5ap598uivk72avdcufemive73j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

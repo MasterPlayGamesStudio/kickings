@@ -1,0 +1,31 @@
+<!--   AdIn contains the deails of Ad in pages
+1- ShowMenuAd 2-LevelSelection 3-Upgrade 4-LevelComplete 5-PreLevelFail 6-LevelFail
+RotationType 1->IronSource 2->Admob 3->Unity 4->FB
+MenuAdInPages 1-MenuPage 2-LevelSelection 3-UpgradePage 4-LevelComplete 5-LevelFail
+**Dont Give Empty values-->
+<GameData>
+<Desc RateDesc="How many star would you give ? " ShareDesc="Share And Get 1000 Coins"/>
+<PopUpLvls RateInLvls="30" ShareInLvls="10000000" Unlockupgradevideo="15_19" />
+<Coins RateCoins="0" ShareCoins="1000"/>
+<UnlockAllPop startFrom="1" Upgradepage="2_3" Levelpage="150_160"/>
+<UnlockAllBtn startFrom="1"/>
+<IAPType type="0"/> 
+<Addelay AdStartdelay="1" Addelay="10" lcaddelay="0" lfaddelay="0" prelfdelay="1" upldelay="1" AdCallDelay="2"/>
+<AdType RotationType="2_2" RotationRewardType="2_2"/>
+<AdIn startFrom="1" pages="0_0_0_4_0_6" moregames="1" MenuAdInPages="0_0_0_0_0"/>
+<shareLink urlFB="https://play.google.com/store/apps/details?id=com.timuzgames.surferrace"/>
+<FBAds On="1" Normal="347324222906050_347324466239359" Rewarded="347324222906050_347325516239254"/>
+<AppReview On="0"/>
+<GamesAds
+video1="https://videosforads.s3-us-west-2.amazonaws.com/Herostrike.mp4" videoLink1="market://details?id=com.timuzgames.herostrike" FileName1="Hero Strike"
+video2="https://videosforads.s3-us-west-2.amazonaws.com/Cricketgame.mp4" videoLink2="market://details?id=com.games.cricket.guesstheshot" FileName2="Guess the Shot"
+/>
+	<!--<MiniGamesAds Addelay="180"
+	video1="https://timuz2020.s3-us-west-1.amazonaws.com/smallvideos/Knifehits.mp4" videoLink1="market://details?id=com.timuzgames.knifehit" FileName1="Knife Hit"
+	video2="https://timuz2020.s3-us-west-1.amazonaws.com/smallvideos/Poolshots.mp4" videoLink2="market://details?id=com.timuzgames.poolshots" FileName2="Pool Shots"
+	video3="https://timuz2020.s3-us-west-1.amazonaws.com/smallvideos/shootingchallenge.mp4" videoLink3="market://details?id=com.timuzgames.shootingchallenge" FileName3="Shooting Challenge"
+	video4="https://timuz2020.s3-us-west-1.amazonaws.com/smallvideos/ropecut.mp4" videoLink4="market://details?id=com.timuzgames.ropecutrescuehero" FileName4="Rope Cut Rescue Hero"
+	video5="https://timuz2020.s3-us-west-1.amazonaws.com/smallvideos/parkmania.mp4" videoLink5="market://details?id=com.timuzgames.parkmania" FileName5="Park Mania"
+/>-->
+</GameData>
+

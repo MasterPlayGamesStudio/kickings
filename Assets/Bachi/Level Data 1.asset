@@ -1,0 +1,2015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16102f6774cf17469096b2799618fcc, type: 3}
+  m_Name: Level Data 1
+  m_EditorClassIdentifier: 
+  Alllevesinfos:
+  - Characterindexvalue: 3
+    AIplayerhealth: 100
+    Levelrewardvalue: 100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 125
+    Levelrewardvalue: 200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 154
+    Levelrewardvalue: 300
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 184
+    Levelrewardvalue: 400
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 100
+    AIplayerhealth: 215
+    Levelrewardvalue: 500
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 247
+    Levelrewardvalue: 600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 280
+    Levelrewardvalue: 700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 314
+    Levelrewardvalue: 800
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 348
+    Levelrewardvalue: 900
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 101
+    AIplayerhealth: 383
+    Levelrewardvalue: 1000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 419
+    Levelrewardvalue: 1100
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 456
+    Levelrewardvalue: 1200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 494
+    Levelrewardvalue: 1300
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 533
+    Levelrewardvalue: 1400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 102
+    AIplayerhealth: 572
+    Levelrewardvalue: 1500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 612
+    Levelrewardvalue: 1600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 653
+    Levelrewardvalue: 1700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 695
+    Levelrewardvalue: 1800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 738
+    Levelrewardvalue: 1900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 103
+    AIplayerhealth: 782
+    Levelrewardvalue: 2000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 827
+    Levelrewardvalue: 2100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 873
+    Levelrewardvalue: 2200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 920
+    Levelrewardvalue: 2300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 968
+    Levelrewardvalue: 2400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 104
+    AIplayerhealth: 1017
+    Levelrewardvalue: 2500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 1066
+    Levelrewardvalue: 2600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 1116
+    Levelrewardvalue: 2700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 1167
+    Levelrewardvalue: 2800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 1218
+    Levelrewardvalue: 2900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 105
+    AIplayerhealth: 1270
+    Levelrewardvalue: 3000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 1323
+    Levelrewardvalue: 3100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 1377
+    Levelrewardvalue: 3200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 1432
+    Levelrewardvalue: 3300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 1488
+    Levelrewardvalue: 3400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 106
+    AIplayerhealth: 1545
+    Levelrewardvalue: 3500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 1603
+    Levelrewardvalue: 3600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 1662
+    Levelrewardvalue: 3700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 1722
+    Levelrewardvalue: 3800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 1783
+    Levelrewardvalue: 3900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 107
+    AIplayerhealth: 1845
+    Levelrewardvalue: 4000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 1908
+    Levelrewardvalue: 4100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 1972
+    Levelrewardvalue: 4200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 2037
+    Levelrewardvalue: 4300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 2103
+    Levelrewardvalue: 4400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 108
+    AIplayerhealth: 2170
+    Levelrewardvalue: 4500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 2238
+    Levelrewardvalue: 4600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 2306
+    Levelrewardvalue: 4700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 2374
+    Levelrewardvalue: 4800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 2443
+    Levelrewardvalue: 4900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 109
+    AIplayerhealth: 2513
+    Levelrewardvalue: 5000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 2583
+    Levelrewardvalue: 5100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 2654
+    Levelrewardvalue: 5200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 2726
+    Levelrewardvalue: 5300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 2799
+    Levelrewardvalue: 5400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 110
+    AIplayerhealth: 2873
+    Levelrewardvalue: 5500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 2948
+    Levelrewardvalue: 5600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 3024
+    Levelrewardvalue: 5700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 3101
+    Levelrewardvalue: 5800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 3179
+    Levelrewardvalue: 5900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 111
+    AIplayerhealth: 3258
+    Levelrewardvalue: 6000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 3338
+    Levelrewardvalue: 6100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 3419
+    Levelrewardvalue: 6200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 3501
+    Levelrewardvalue: 6300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 3584
+    Levelrewardvalue: 6400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 100
+    AIplayerhealth: 3668
+    Levelrewardvalue: 6500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 3752
+    Levelrewardvalue: 6600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 3837
+    Levelrewardvalue: 6700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 3923
+    Levelrewardvalue: 6800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 4010
+    Levelrewardvalue: 6900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 101
+    AIplayerhealth: 4098
+    Levelrewardvalue: 7000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 4186
+    Levelrewardvalue: 7100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 4275
+    Levelrewardvalue: 7200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 4365
+    Levelrewardvalue: 7300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 4456
+    Levelrewardvalue: 7400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 102
+    AIplayerhealth: 4548
+    Levelrewardvalue: 7500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 4641
+    Levelrewardvalue: 7600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 4735
+    Levelrewardvalue: 7700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 4830
+    Levelrewardvalue: 7800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 4926
+    Levelrewardvalue: 7900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 103
+    AIplayerhealth: 5023
+    Levelrewardvalue: 8000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 5120
+    Levelrewardvalue: 8100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 5218
+    Levelrewardvalue: 8200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 5317
+    Levelrewardvalue: 8300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 5417
+    Levelrewardvalue: 8400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 104
+    AIplayerhealth: 5518
+    Levelrewardvalue: 8500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 5620
+    Levelrewardvalue: 8600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 5723
+    Levelrewardvalue: 8700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 5827
+    Levelrewardvalue: 8800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 5932
+    Levelrewardvalue: 8900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 105
+    AIplayerhealth: 6038
+    Levelrewardvalue: 9000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 6144
+    Levelrewardvalue: 9100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 6250
+    Levelrewardvalue: 9200
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 6357
+    Levelrewardvalue: 9300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 6465
+    Levelrewardvalue: 9400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 106
+    AIplayerhealth: 6574
+    Levelrewardvalue: 9500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 6684
+    Levelrewardvalue: 9600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 6795
+    Levelrewardvalue: 9700
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 6907
+    Levelrewardvalue: 9800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 7020
+    Levelrewardvalue: 9900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 107
+    AIplayerhealth: 7134
+    Levelrewardvalue: 10000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 7249
+    Levelrewardvalue: 10100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 7365
+    Levelrewardvalue: 10200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 7482
+    Levelrewardvalue: 10300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 7600
+    Levelrewardvalue: 10400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 108
+    AIplayerhealth: 7719
+    Levelrewardvalue: 10500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 7839
+    Levelrewardvalue: 10600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 7960
+    Levelrewardvalue: 10700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 8082
+    Levelrewardvalue: 10800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 8204
+    Levelrewardvalue: 10900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 109
+    AIplayerhealth: 8327
+    Levelrewardvalue: 11000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 8451
+    Levelrewardvalue: 11100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 8576
+    Levelrewardvalue: 11200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 8702
+    Levelrewardvalue: 11300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 8829
+    Levelrewardvalue: 11400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 110
+    AIplayerhealth: 8957
+    Levelrewardvalue: 11500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 9086
+    Levelrewardvalue: 11600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 9216
+    Levelrewardvalue: 11700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 9347
+    Levelrewardvalue: 11800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 9479
+    Levelrewardvalue: 11900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 111
+    AIplayerhealth: 9612
+    Levelrewardvalue: 12000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 9746
+    Levelrewardvalue: 12100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 9880
+    Levelrewardvalue: 12200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 10015
+    Levelrewardvalue: 12300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 10150
+    Levelrewardvalue: 12400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 100
+    AIplayerhealth: 10286
+    Levelrewardvalue: 12500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 10423
+    Levelrewardvalue: 12600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 10561
+    Levelrewardvalue: 12700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 10700
+    Levelrewardvalue: 12800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 10840
+    Levelrewardvalue: 12900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 101
+    AIplayerhealth: 10981
+    Levelrewardvalue: 13000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 11123
+    Levelrewardvalue: 13100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 11265
+    Levelrewardvalue: 13200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 11408
+    Levelrewardvalue: 13300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 11552
+    Levelrewardvalue: 13400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 102
+    AIplayerhealth: 11697
+    Levelrewardvalue: 13500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 11843
+    Levelrewardvalue: 13600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 11990
+    Levelrewardvalue: 13700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 12138
+    Levelrewardvalue: 13800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 12287
+    Levelrewardvalue: 13900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 103
+    AIplayerhealth: 12437
+    Levelrewardvalue: 14000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 12588
+    Levelrewardvalue: 14100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 12740
+    Levelrewardvalue: 14200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 12893
+    Levelrewardvalue: 14300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 13046
+    Levelrewardvalue: 14400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 104
+    AIplayerhealth: 13200
+    Levelrewardvalue: 14500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 13355
+    Levelrewardvalue: 14600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 13510
+    Levelrewardvalue: 14700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 13666
+    Levelrewardvalue: 14800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 13823
+    Levelrewardvalue: 14900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 105
+    AIplayerhealth: 13980
+    Levelrewardvalue: 15000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 14138
+    Levelrewardvalue: 15100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 14297
+    Levelrewardvalue: 15200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 14456
+    Levelrewardvalue: 15300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 14616
+    Levelrewardvalue: 15400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 106
+    AIplayerhealth: 14777
+    Levelrewardvalue: 15500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 14939
+    Levelrewardvalue: 15600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 15102
+    Levelrewardvalue: 15700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 15266
+    Levelrewardvalue: 15800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 15431
+    Levelrewardvalue: 15900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 107
+    AIplayerhealth: 15597
+    Levelrewardvalue: 16000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 15764
+    Levelrewardvalue: 16100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 15931
+    Levelrewardvalue: 16200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 16099
+    Levelrewardvalue: 16300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 16268
+    Levelrewardvalue: 16400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 108
+    AIplayerhealth: 16438
+    Levelrewardvalue: 16500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 16609
+    Levelrewardvalue: 16600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 16781
+    Levelrewardvalue: 16700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 16954
+    Levelrewardvalue: 16800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 17128
+    Levelrewardvalue: 16900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 109
+    AIplayerhealth: 17303
+    Levelrewardvalue: 17000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 17478
+    Levelrewardvalue: 17100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 17654
+    Levelrewardvalue: 17200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 17831
+    Levelrewardvalue: 17300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 18009
+    Levelrewardvalue: 17400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 110
+    AIplayerhealth: 18188
+    Levelrewardvalue: 17500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 18368
+    Levelrewardvalue: 17600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 18548
+    Levelrewardvalue: 17700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 18729
+    Levelrewardvalue: 17800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 18911
+    Levelrewardvalue: 17900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 111
+    AIplayerhealth: 19093
+    Levelrewardvalue: 18000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 19276
+    Levelrewardvalue: 18100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 19460
+    Levelrewardvalue: 18200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 19644
+    Levelrewardvalue: 18300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 19829
+    Levelrewardvalue: 18400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 100
+    AIplayerhealth: 20014
+    Levelrewardvalue: 18500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 20200
+    Levelrewardvalue: 18600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 20386
+    Levelrewardvalue: 18700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 20573
+    Levelrewardvalue: 18800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 20761
+    Levelrewardvalue: 18900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 101
+    AIplayerhealth: 20950
+    Levelrewardvalue: 19000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 21140
+    Levelrewardvalue: 19100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 21331
+    Levelrewardvalue: 19200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 21523
+    Levelrewardvalue: 19300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 21716
+    Levelrewardvalue: 19400
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 102
+    AIplayerhealth: 21910
+    Levelrewardvalue: 19500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 22104
+    Levelrewardvalue: 19600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 22299
+    Levelrewardvalue: 19700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 22495
+    Levelrewardvalue: 19800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 22691
+    Levelrewardvalue: 19900
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 103
+    AIplayerhealth: 22888
+    Levelrewardvalue: 20000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 23086
+    Levelrewardvalue: 20100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 23285
+    Levelrewardvalue: 20200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 23485
+    Levelrewardvalue: 20300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 23685
+    Levelrewardvalue: 20400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 104
+    AIplayerhealth: 23886
+    Levelrewardvalue: 20500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 24088
+    Levelrewardvalue: 20600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 24291
+    Levelrewardvalue: 20700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 24495
+    Levelrewardvalue: 20800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 24699
+    Levelrewardvalue: 20900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 105
+    AIplayerhealth: 24904
+    Levelrewardvalue: 21000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 25110
+    Levelrewardvalue: 21100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 25317
+    Levelrewardvalue: 21200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 25525
+    Levelrewardvalue: 21300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 25734
+    Levelrewardvalue: 21400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 106
+    AIplayerhealth: 25944
+    Levelrewardvalue: 21500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 26155
+    Levelrewardvalue: 21600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 26367
+    Levelrewardvalue: 21700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 26580
+    Levelrewardvalue: 21800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 26793
+    Levelrewardvalue: 21900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 107
+    AIplayerhealth: 27007
+    Levelrewardvalue: 22000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 27222
+    Levelrewardvalue: 22100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 27438
+    Levelrewardvalue: 22200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 27654
+    Levelrewardvalue: 22300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 27871
+    Levelrewardvalue: 22400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 108
+    AIplayerhealth: 28089
+    Levelrewardvalue: 22500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 28308
+    Levelrewardvalue: 22600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 28528
+    Levelrewardvalue: 22700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 28749
+    Levelrewardvalue: 22800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 28971
+    Levelrewardvalue: 22900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 109
+    AIplayerhealth: 29194
+    Levelrewardvalue: 23000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 29418
+    Levelrewardvalue: 23100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 29643
+    Levelrewardvalue: 23200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 29869
+    Levelrewardvalue: 23300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 30096
+    Levelrewardvalue: 23400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 110
+    AIplayerhealth: 30324
+    Levelrewardvalue: 23500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 30553
+    Levelrewardvalue: 23600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 30783
+    Levelrewardvalue: 23700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 31014
+    Levelrewardvalue: 23800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 31246
+    Levelrewardvalue: 23900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 111
+    AIplayerhealth: 31479
+    Levelrewardvalue: 24000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 31713
+    Levelrewardvalue: 24100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 31948
+    Levelrewardvalue: 24200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 32184
+    Levelrewardvalue: 24300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 32421
+    Levelrewardvalue: 24400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 100
+    AIplayerhealth: 32659
+    Levelrewardvalue: 24500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 32898
+    Levelrewardvalue: 24600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 33137
+    Levelrewardvalue: 24700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 33377
+    Levelrewardvalue: 24800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 33618
+    Levelrewardvalue: 24900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 101
+    AIplayerhealth: 33860
+    Levelrewardvalue: 25000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 34103
+    Levelrewardvalue: 25100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 34346
+    Levelrewardvalue: 25200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 34590
+    Levelrewardvalue: 25300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 34834
+    Levelrewardvalue: 25400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 102
+    AIplayerhealth: 35079
+    Levelrewardvalue: 25500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 35325
+    Levelrewardvalue: 25600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 35572
+    Levelrewardvalue: 25700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 35819
+    Levelrewardvalue: 25800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 36067
+    Levelrewardvalue: 25900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 103
+    AIplayerhealth: 36316
+    Levelrewardvalue: 26000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 36566
+    Levelrewardvalue: 26100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 36817
+    Levelrewardvalue: 26200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 37069
+    Levelrewardvalue: 26300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 37321
+    Levelrewardvalue: 26400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 104
+    AIplayerhealth: 37574
+    Levelrewardvalue: 26500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 37828
+    Levelrewardvalue: 26600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 38083
+    Levelrewardvalue: 26700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 38339
+    Levelrewardvalue: 26800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 38596
+    Levelrewardvalue: 26900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 105
+    AIplayerhealth: 38854
+    Levelrewardvalue: 27000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 39113
+    Levelrewardvalue: 27100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 39373
+    Levelrewardvalue: 27200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 39634
+    Levelrewardvalue: 27300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 39895
+    Levelrewardvalue: 27400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 106
+    AIplayerhealth: 40157
+    Levelrewardvalue: 27500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 40420
+    Levelrewardvalue: 27600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 40684
+    Levelrewardvalue: 27700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 40949
+    Levelrewardvalue: 27800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 41215
+    Levelrewardvalue: 27900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 107
+    AIplayerhealth: 41482
+    Levelrewardvalue: 28000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 41750
+    Levelrewardvalue: 28100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 42019
+    Levelrewardvalue: 28200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 42289
+    Levelrewardvalue: 28300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 42560
+    Levelrewardvalue: 28400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 108
+    AIplayerhealth: 42831
+    Levelrewardvalue: 28500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 43103
+    Levelrewardvalue: 28600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 43376
+    Levelrewardvalue: 28700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 43650
+    Levelrewardvalue: 28800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 43925
+    Levelrewardvalue: 28900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 109
+    AIplayerhealth: 44201
+    Levelrewardvalue: 29000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 44478
+    Levelrewardvalue: 29100
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 44756
+    Levelrewardvalue: 29200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 45035
+    Levelrewardvalue: 29300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 45315
+    Levelrewardvalue: 29400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 110
+    AIplayerhealth: 45596
+    Levelrewardvalue: 29500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 45878
+    Levelrewardvalue: 29600
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 46161
+    Levelrewardvalue: 29700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 46444
+    Levelrewardvalue: 29800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 46727
+    Levelrewardvalue: 29900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 111
+    AIplayerhealth: 47011
+    Levelrewardvalue: 30000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 47296
+    Levelrewardvalue: 30100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 47582
+    Levelrewardvalue: 30200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 47869
+    Levelrewardvalue: 30300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 15
+    AIplayerhealth: 48157
+    Levelrewardvalue: 30400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 100
+    AIplayerhealth: 48446
+    Levelrewardvalue: 30500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 48736
+    Levelrewardvalue: 30600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 49026
+    Levelrewardvalue: 30700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 49317
+    Levelrewardvalue: 30800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 3
+    AIplayerhealth: 49608
+    Levelrewardvalue: 30900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 101
+    AIplayerhealth: 49900
+    Levelrewardvalue: 31000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 50193
+    Levelrewardvalue: 31100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 50487
+    Levelrewardvalue: 31200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 50782
+    Levelrewardvalue: 31300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 51077
+    Levelrewardvalue: 31400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 102
+    AIplayerhealth: 51372
+    Levelrewardvalue: 31500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 51668
+    Levelrewardvalue: 31600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 51965
+    Levelrewardvalue: 31700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 52263
+    Levelrewardvalue: 31800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 15
+    AIplayerhealth: 52562
+    Levelrewardvalue: 31900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 103
+    AIplayerhealth: 52862
+    Levelrewardvalue: 32000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 53163
+    Levelrewardvalue: 32100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 53465
+    Levelrewardvalue: 32200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 53767
+    Levelrewardvalue: 32300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 1
+    AIplayerhealth: 54070
+    Levelrewardvalue: 32400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 104
+    AIplayerhealth: 54374
+    Levelrewardvalue: 32500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 54679
+    Levelrewardvalue: 32600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 54985
+    Levelrewardvalue: 32700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 55292
+    Levelrewardvalue: 32800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 12
+    AIplayerhealth: 55600
+    Levelrewardvalue: 32900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 105
+    AIplayerhealth: 55909
+    Levelrewardvalue: 33000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 56219
+    Levelrewardvalue: 33100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 56530
+    Levelrewardvalue: 33200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 56842
+    Levelrewardvalue: 33300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 13
+    AIplayerhealth: 57155
+    Levelrewardvalue: 33400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 106
+    AIplayerhealth: 57469
+    Levelrewardvalue: 33500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 57784
+    Levelrewardvalue: 33600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 58099
+    Levelrewardvalue: 33700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 58414
+    Levelrewardvalue: 33800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 58730
+    Levelrewardvalue: 33900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 107
+    AIplayerhealth: 59047
+    Levelrewardvalue: 34000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 59365
+    Levelrewardvalue: 34100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 59684
+    Levelrewardvalue: 34200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 60003
+    Levelrewardvalue: 34300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 1
+    AIplayerhealth: 60322
+    Levelrewardvalue: 34400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 108
+    AIplayerhealth: 60642
+    Levelrewardvalue: 34500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 60963
+    Levelrewardvalue: 34600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 61285
+    Levelrewardvalue: 34700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 61608
+    Levelrewardvalue: 34800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 10
+    AIplayerhealth: 61932
+    Levelrewardvalue: 34900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 109
+    AIplayerhealth: 62257
+    Levelrewardvalue: 35000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 62582
+    Levelrewardvalue: 35100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 62908
+    Levelrewardvalue: 35200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 63235
+    Levelrewardvalue: 35300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 10
+    AIplayerhealth: 63563
+    Levelrewardvalue: 35400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 110
+    AIplayerhealth: 63891
+    Levelrewardvalue: 35500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 64220
+    Levelrewardvalue: 35600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 64550
+    Levelrewardvalue: 35700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 64881
+    Levelrewardvalue: 35800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 9
+    AIplayerhealth: 65213
+    Levelrewardvalue: 35900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 111
+    AIplayerhealth: 65546
+    Levelrewardvalue: 36000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 65880
+    Levelrewardvalue: 36100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 66214
+    Levelrewardvalue: 36200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 66549
+    Levelrewardvalue: 36300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 66885
+    Levelrewardvalue: 36400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 100
+    AIplayerhealth: 67222
+    Levelrewardvalue: 36500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 67560
+    Levelrewardvalue: 36600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 67899
+    Levelrewardvalue: 36700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 68239
+    Levelrewardvalue: 36800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 10
+    AIplayerhealth: 68580
+    Levelrewardvalue: 36900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 101
+    AIplayerhealth: 68922
+    Levelrewardvalue: 37000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 69265
+    Levelrewardvalue: 37100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 69609
+    Levelrewardvalue: 37200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 69954
+    Levelrewardvalue: 37300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 11
+    AIplayerhealth: 70300
+    Levelrewardvalue: 37400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 102
+    AIplayerhealth: 70647
+    Levelrewardvalue: 37500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 70995
+    Levelrewardvalue: 37600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 71344
+    Levelrewardvalue: 37700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 71694
+    Levelrewardvalue: 37800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 1
+    AIplayerhealth: 72045
+    Levelrewardvalue: 37900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 103
+    AIplayerhealth: 72397
+    Levelrewardvalue: 38000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 72749
+    Levelrewardvalue: 38100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 73102
+    Levelrewardvalue: 38200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 73456
+    Levelrewardvalue: 38300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 14
+    AIplayerhealth: 73811
+    Levelrewardvalue: 38400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 104
+    AIplayerhealth: 74167
+    Levelrewardvalue: 38500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 74524
+    Levelrewardvalue: 38600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 74881
+    Levelrewardvalue: 38700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 75239
+    Levelrewardvalue: 38800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 1
+    AIplayerhealth: 75598
+    Levelrewardvalue: 38900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 105
+    AIplayerhealth: 75958
+    Levelrewardvalue: 39000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 76319
+    Levelrewardvalue: 39100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 76681
+    Levelrewardvalue: 39200
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 77044
+    Levelrewardvalue: 39300
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 77408
+    Levelrewardvalue: 39400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 106
+    AIplayerhealth: 77773
+    Levelrewardvalue: 39500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 2
+    AIplayerhealth: 78139
+    Levelrewardvalue: 39600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 6
+    AIplayerhealth: 78506
+    Levelrewardvalue: 39700
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 78874
+    Levelrewardvalue: 39800
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 13
+    AIplayerhealth: 79243
+    Levelrewardvalue: 39900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 107
+    AIplayerhealth: 79613
+    Levelrewardvalue: 40000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 3
+    AIplayerhealth: 79984
+    Levelrewardvalue: 40100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 80356
+    Levelrewardvalue: 40200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 10
+    AIplayerhealth: 80729
+    Levelrewardvalue: 40300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 81103
+    Levelrewardvalue: 40400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 108
+    AIplayerhealth: 81478
+    Levelrewardvalue: 40500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 81854
+    Levelrewardvalue: 40600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 82230
+    Levelrewardvalue: 40700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 10
+    AIplayerhealth: 82607
+    Levelrewardvalue: 40800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 82985
+    Levelrewardvalue: 40900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 109
+    AIplayerhealth: 83364
+    Levelrewardvalue: 41000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 83744
+    Levelrewardvalue: 41100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 84125
+    Levelrewardvalue: 41200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 3
+    AIplayerhealth: 84507
+    Levelrewardvalue: 41300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 84890
+    Levelrewardvalue: 41400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 110
+    AIplayerhealth: 85274
+    Levelrewardvalue: 41500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 12
+    AIplayerhealth: 85659
+    Levelrewardvalue: 41600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 86045
+    Levelrewardvalue: 41700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 15
+    AIplayerhealth: 86432
+    Levelrewardvalue: 41800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 86820
+    Levelrewardvalue: 41900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 111
+    AIplayerhealth: 87209
+    Levelrewardvalue: 42000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 11
+    AIplayerhealth: 87599
+    Levelrewardvalue: 42100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 87990
+    Levelrewardvalue: 42200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 12
+    AIplayerhealth: 88382
+    Levelrewardvalue: 42300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 88775
+    Levelrewardvalue: 42400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 100
+    AIplayerhealth: 89169
+    Levelrewardvalue: 42500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 13
+    AIplayerhealth: 89564
+    Levelrewardvalue: 42600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 89960
+    Levelrewardvalue: 42700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 90357
+    Levelrewardvalue: 42800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 90755
+    Levelrewardvalue: 42900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 101
+    AIplayerhealth: 91153
+    Levelrewardvalue: 43000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 91552
+    Levelrewardvalue: 43100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 91952
+    Levelrewardvalue: 43200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 6
+    AIplayerhealth: 92353
+    Levelrewardvalue: 43300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 92755
+    Levelrewardvalue: 43400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 102
+    AIplayerhealth: 93158
+    Levelrewardvalue: 43500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 93562
+    Levelrewardvalue: 43600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 93967
+    Levelrewardvalue: 43700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 14
+    AIplayerhealth: 94373
+    Levelrewardvalue: 43800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 94780
+    Levelrewardvalue: 43900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 103
+    AIplayerhealth: 95188
+    Levelrewardvalue: 44000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 15
+    AIplayerhealth: 95597
+    Levelrewardvalue: 44100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 96006
+    Levelrewardvalue: 44200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 96416
+    Levelrewardvalue: 44300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 96827
+    Levelrewardvalue: 44400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 104
+    AIplayerhealth: 97239
+    Levelrewardvalue: 44500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 97652
+    Levelrewardvalue: 44600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 98066
+    Levelrewardvalue: 44700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 14
+    AIplayerhealth: 98480
+    Levelrewardvalue: 44800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 98895
+    Levelrewardvalue: 44900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 105
+    AIplayerhealth: 99311
+    Levelrewardvalue: 45000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 99727
+    Levelrewardvalue: 45100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 100144
+    Levelrewardvalue: 45200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 15
+    AIplayerhealth: 100562
+    Levelrewardvalue: 45300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 100981
+    Levelrewardvalue: 45400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 106
+    AIplayerhealth: 101401
+    Levelrewardvalue: 45500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 7
+    AIplayerhealth: 101822
+    Levelrewardvalue: 45600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 7
+    AIplayerhealth: 102244
+    Levelrewardvalue: 45700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 12
+    AIplayerhealth: 102667
+    Levelrewardvalue: 45800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 103091
+    Levelrewardvalue: 45900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 107
+    AIplayerhealth: 103516
+    Levelrewardvalue: 46000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 1
+    AIplayerhealth: 103941
+    Levelrewardvalue: 46100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 104367
+    Levelrewardvalue: 46200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 8
+    AIplayerhealth: 104794
+    Levelrewardvalue: 46300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 2
+    AIplayerhealth: 105222
+    Levelrewardvalue: 46400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 108
+    AIplayerhealth: 105651
+    Levelrewardvalue: 46500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 10
+    AIplayerhealth: 106081
+    Levelrewardvalue: 46600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 1
+    AIplayerhealth: 106512
+    Levelrewardvalue: 46700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 106944
+    Levelrewardvalue: 46800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 5
+    AIplayerhealth: 107377
+    Levelrewardvalue: 46900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 109
+    AIplayerhealth: 107811
+    Levelrewardvalue: 47000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 6
+    AIplayerhealth: 108246
+    Levelrewardvalue: 47100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 4
+    AIplayerhealth: 108682
+    Levelrewardvalue: 47200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 4
+    AIplayerhealth: 109119
+    Levelrewardvalue: 47300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 9
+    AIplayerhealth: 109557
+    Levelrewardvalue: 47400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 110
+    AIplayerhealth: 109996
+    Levelrewardvalue: 47500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 9
+    AIplayerhealth: 110436
+    Levelrewardvalue: 47600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 15
+    AIplayerhealth: 110877
+    Levelrewardvalue: 47700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 5
+    AIplayerhealth: 111319
+    Levelrewardvalue: 47800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 111762
+    Levelrewardvalue: 47900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 111
+    AIplayerhealth: 112206
+    Levelrewardvalue: 48000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 5
+    AIplayerhealth: 112651
+    Levelrewardvalue: 48100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 3
+    AIplayerhealth: 113097
+    Levelrewardvalue: 48200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 8
+    AIplayerhealth: 113544
+    Levelrewardvalue: 48300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 13
+    AIplayerhealth: 113992
+    Levelrewardvalue: 48400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 100
+    AIplayerhealth: 114441
+    Levelrewardvalue: 48500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 4
+    AIplayerhealth: 114891
+    Levelrewardvalue: 48600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 115342
+    Levelrewardvalue: 48700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 2
+    AIplayerhealth: 115794
+    Levelrewardvalue: 48800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 11
+    AIplayerhealth: 116247
+    Levelrewardvalue: 48900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 101
+    AIplayerhealth: 116701
+    Levelrewardvalue: 49000
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 14
+    AIplayerhealth: 117156
+    Levelrewardvalue: 49100
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 14
+    AIplayerhealth: 117612
+    Levelrewardvalue: 49200
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 2
+    AIplayerhealth: 118069
+    Levelrewardvalue: 49300
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 10
+    AIplayerhealth: 118527
+    Levelrewardvalue: 49400
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 102
+    AIplayerhealth: 118986
+    Levelrewardvalue: 49500
+    CurrentAIplayerLevel: 0
+  - Characterindexvalue: 8
+    AIplayerhealth: 119446
+    Levelrewardvalue: 49600
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 8
+    AIplayerhealth: 119907
+    Levelrewardvalue: 49700
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 5
+    AIplayerhealth: 120369
+    Levelrewardvalue: 49800
+    CurrentAIplayerLevel: 1
+  - Characterindexvalue: 12
+    AIplayerhealth: 120832
+    Levelrewardvalue: 49900
+    CurrentAIplayerLevel: 2
+  - Characterindexvalue: 12
+    AIplayerhealth: 121296
+    Levelrewardvalue: 50000
+    CurrentAIplayerLevel: 0
