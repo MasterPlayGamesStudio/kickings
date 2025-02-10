@@ -595,7 +595,7 @@ MonoBehaviour:
   androidRewardedID: ca-app-pub-8646809116497905/7417833355
   iOSInterstitialID: ca-app-pub-8646809116497905/8617829415
   iOSRewardedID: ca-app-pub-8646809116497905/7304747744
-  adIntervalLevel: 2
+  adIntervalLevel: 1
 --- !u!4 &1559178048
 Transform:
   m_ObjectHideFlags: 0
@@ -728,8 +728,7 @@ MonoBehaviour:
   images:
     clearImage: {fileID: 2800000, guid: bb10b8fb3a5bef945a160d3e671f29c2, type: 3}
     collapseImage: {fileID: 2800000, guid: 830370df52a69354f826d096bf5ec287, type: 3}
-    clearOnNewSceneImage: {fileID: 2800000, guid: 5cba45f4c1839ea4e85ca5ca57d2091f,
-      type: 3}
+    clearOnNewSceneImage: {fileID: 2800000, guid: 5cba45f4c1839ea4e85ca5ca57d2091f, type: 3}
     showTimeImage: {fileID: 2800000, guid: 6f1aedaaea35b074daa72c06106d98a6, type: 3}
     showSceneImage: {fileID: 2800000, guid: 2eda692e39be3564088c5dce467f0459, type: 3}
     userImage: {fileID: 2800000, guid: 500d26b3cbb8a7b4781be0f63272922a, type: 3}
@@ -748,13 +747,11 @@ MonoBehaviour:
     warningImage: {fileID: 2800000, guid: 6cb1325a259a9f147958fe1e0d6034d6, type: 3}
     errorImage: {fileID: 2800000, guid: cb3acc025a2c55a43aa8a0ec8225b7e8, type: 3}
     barImage: {fileID: 2800000, guid: cd8a4da015a544a4784ab203aac526de, type: 3}
-    button_activeImage: {fileID: 2800000, guid: 4be907f2e5e4c454797579f99872443a,
-      type: 3}
+    button_activeImage: {fileID: 2800000, guid: 4be907f2e5e4c454797579f99872443a, type: 3}
     even_logImage: {fileID: 2800000, guid: b2db678242917a848b704e1aab3f4b25, type: 3}
     odd_logImage: {fileID: 2800000, guid: e86ddd1838fa62741b79208de8b4be4d, type: 3}
     selectedImage: {fileID: 2800000, guid: c0290104e1c9b8247a070c40c05c07d5, type: 3}
-    reporterScrollerSkin: {fileID: 11400000, guid: 0c9468fe541b9c94e836818a46971afd,
-      type: 2}
+    reporterScrollerSkin: {fileID: 11400000, guid: 0c9468fe541b9c94e836818a46971afd, type: 2}
   size: {x: 32, y: 32}
   maxSize: 20
   numOfCircleToShow: 10
